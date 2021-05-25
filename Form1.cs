@@ -19,7 +19,7 @@ namespace Калькулятор
 
         private void button17_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Hello!");
         }
 
         private void button2_Click(object sender, EventArgs e)
