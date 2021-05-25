@@ -69,6 +69,7 @@ namespace Калькулятор
             this.button2.TabIndex = 1;
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -103,7 +104,7 @@ namespace Калькулятор
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 53);
             this.button6.TabIndex = 5;
-            this.button6.Text = "6";
+            this.button6.Text = "60";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // button7
@@ -130,8 +131,9 @@ namespace Калькулятор
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 53);
             this.button9.TabIndex = 8;
-            this.button9.Text = "9";
+            this.button9.Text = "90";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -139,7 +141,7 @@ namespace Калькулятор
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(75, 53);
             this.button10.TabIndex = 9;
-            this.button10.Text = "C";
+            this.button10.Text = "Del";
             this.button10.UseVisualStyleBackColor = true;
             // 
             // button11
